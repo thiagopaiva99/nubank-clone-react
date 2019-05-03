@@ -1,0 +1,14 @@
+@import "./assets/styles/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100vh;
+  background: lighten($purple-color, 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

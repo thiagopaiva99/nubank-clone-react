@@ -1,0 +1,11 @@
+@import "../../assets/styles/variables";
+
+.layout-container {
+    width: 411px;
+    height: 90vh;
+    background: $purple-color;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
