@@ -1,0 +1,24 @@
+@import "../../assets/styles/variables";
+
+.bottom-navigation {
+    max-width: 100%;
+
+    .bottom-navigation-list {
+        display: flex;
+        overflow: scroll;
+
+        .bottom-navigation-list-item {
+            flex: 0 0 23%;
+            margin-right: 10px;
+            height: 100px;
+            background: lighten($purple-color, 5);
+            list-style: none;
+            border-radius: 5px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: #fff;
+        }
+    }
+}
